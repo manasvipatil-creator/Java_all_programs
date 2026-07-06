@@ -2,9 +2,9 @@ public class Null_example {
 
     public static void main(String args[]){
 
-        String s=null;
+        String s="java";
         try{
-            System.out.println("Lenth= "+s.length());
+            System.out.println("Length= "+s.length());
 
         }
         catch(NullPointerException e){
